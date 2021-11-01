@@ -1,0 +1,1085 @@
+[apollo-client][main]2021-11-01 16:18:49,444 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapDisabledAndDefaultNamespacesAndConditionalOn], using SpringBootContextLoader
+[apollo-client][main]2021-11-01 16:18:49,449 INFO  [org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapDisabledAndDefaultNamespacesAndConditionalOn]: no resource found for suffixes {-context.xml, Context.groovy}.
+[apollo-client][main]2021-11-01 16:18:49,485 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[apollo-client][main]2021-11-01 16:18:49,494 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@48e1f6c7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@55cb6996, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1807e3f6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@480d3575, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@f1da57d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@194fad1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@26abb146, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@72c8e7b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@65f8f5ae]
+[apollo-client][main]2021-11-01 16:18:49,498 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapEnabledAndDefaultNamespacesAndConditionalOn], using SpringBootContextLoader
+[apollo-client][main]2021-11-01 16:18:49,499 INFO  [org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapEnabledAndDefaultNamespacesAndConditionalOn]: no resource found for suffixes {-context.xml, Context.groovy}.
+[apollo-client][main]2021-11-01 16:18:49,506 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[apollo-client][main]2021-11-01 16:18:49,509 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2584b82d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7bbc8656, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6933b6c6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7d3e8655, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7dfb0c0f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@626abbd0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@169bb4dd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1f9e9475, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3aa078fd]
+[apollo-client][main]2021-11-01 16:18:49,509 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapEnabledAndDefaultNamespacesAndConditionalOnFailed], using SpringBootContextLoader
+[apollo-client][main]2021-11-01 16:18:49,510 INFO  [org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapEnabledAndDefaultNamespacesAndConditionalOnFailed]: no resource found for suffixes {-context.xml, Context.groovy}.
+[apollo-client][main]2021-11-01 16:18:49,516 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[apollo-client][main]2021-11-01 16:18:49,518 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@415b0b49, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6d5620ce, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@311bf055, org.springframework.test.context.support.DirtiesContextTestExecutionListener@642a7222, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7d322cad, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@21be3395, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4f49f6af, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@78452606, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@147e2ae7]
+[apollo-client][main]2021-11-01 16:18:49,521 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapEnabledAndEagerLoadEnabled], using SpringBootContextLoader
+[apollo-client][main]2021-11-01 16:18:49,522 INFO  [org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapEnabledAndEagerLoadEnabled]: no resource found for suffixes {-context.xml, Context.groovy}.
+[apollo-client][main]2021-11-01 16:18:49,527 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[apollo-client][main]2021-11-01 16:18:49,530 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2c78324b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@79defdc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@18317edc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e0ae11f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@238d68ff, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b86805d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5852c06f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4149c063, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@9cb8225]
+[apollo-client][main]2021-11-01 16:18:49,531 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapEnabledAndDefaultNamespacesAndConditionalOffWithYamlFile], using SpringBootContextLoader
+[apollo-client][main]2021-11-01 16:18:49,531 INFO  [org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapEnabledAndDefaultNamespacesAndConditionalOffWithYamlFile]: no resource found for suffixes {-context.xml, Context.groovy}.
+[apollo-client][main]2021-11-01 16:18:49,537 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[apollo-client][main]2021-11-01 16:18:49,539 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1b410b60, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2462cb01, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@19b843ba, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64ec96c6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@77659b30, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@456d6c1e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e13529a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1ec9bd38, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@452e19ca]
+[apollo-client][main]2021-11-01 16:18:49,540 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapDisabledAndDefaultNamespacesAndConditionalOff], using SpringBootContextLoader
+[apollo-client][main]2021-11-01 16:18:49,541 INFO  [org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapDisabledAndDefaultNamespacesAndConditionalOff]: no resource found for suffixes {-context.xml, Context.groovy}.
+[apollo-client][main]2021-11-01 16:18:49,546 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[apollo-client][main]2021-11-01 16:18:49,549 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@44be0077, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2205a05d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@72ef8d15, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6aa8e115, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5e21e98f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@51a9ad5e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5f20155b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@72ade7e3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@239105a8]
+[apollo-client][main]2021-11-01 16:18:49,550 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapEnabledAndDefaultNamespacesAndConditionalOff], using SpringBootContextLoader
+[apollo-client][main]2021-11-01 16:18:49,550 INFO  [org.springframework.test.context.support.AbstractContextLoader] Could not detect default resource locations for test class [com.ctrip.framework.apollo.spring.BootstrapConfigTest$TestWithBootstrapEnabledAndDefaultNamespacesAndConditionalOff]: no resource found for suffixes {-context.xml, Context.groovy}.
+[apollo-client][main]2021-11-01 16:18:49,555 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[apollo-client][main]2021-11-01 16:18:49,558 INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@329dbdbf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7354b8c5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@20d7d6fb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4ef782af, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@11d8ae8b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@479cbee5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@59e2d8e3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2b72cb8a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7f8a9499]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v1.5.16.RELEASE)
+
+[apollo-client][main]2021-11-01 16:18:50,231 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3f2049b6: startup date [Mon Nov 01 16:18:50 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:50,294 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:50,402 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3f2049b6: startup date [Mon Nov 01 16:18:50 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:50,435 WARN  [com.ctrip.framework.foundation.internals.provider.DefaultApplicationProvider] app.id is not available from System Property and /META-INF/app.properties. It is set to null
+[apollo-client][main]2021-11-01 16:18:50,436 WARN  [com.ctrip.framework.foundation.internals.provider.DefaultApplicationProvider] app.label is not available from System Property and /META-INF/app.properties. It is set to null
+[apollo-client][main]2021-11-01 16:18:50,437 INFO  [com.ctrip.framework.foundation.internals.provider.DefaultServerProvider] Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+[apollo-client][main]2021-11-01 16:18:51,007 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@512d4583: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,050 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,080 WARN  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'javaConfigAnnotationTest.TestApolloConfigUnresolvedExpressionConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'so.complex.to.resolve' in value "${so.complex.to.resolve}"
+[apollo-client][main]2021-11-01 16:18:51,097 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@198ef2ce: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,176 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,219 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@26e412ef: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,245 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,355 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d96d872: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,392 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,470 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@50a3d0f6: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,492 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,565 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@453d496b: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,584 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,635 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@48535004: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,650 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,669 WARN  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'javaConfigAnnotationTest.TestApolloConfigChangeListenerUnresolvedPlaceholderConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'i.can.not.be.resolved' in value "${i.can.not.be.resolved}"
+[apollo-client][main]2021-11-01 16:18:51,682 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@17740dae: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,702 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,739 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@290aeb20: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,758 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,782 WARN  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bean' defined in com.ctrip.framework.apollo.spring.JavaConfigAnnotationTest$AppConfig5: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Invalid number of parameters: 2 for method: private void com.ctrip.framework.apollo.spring.JavaConfigAnnotationTest$TestApolloConfigChangeListenerBean3.onChange(com.ctrip.framework.apollo.model.ConfigChangeEvent,java.lang.String), should be 1
+[apollo-client][main]2021-11-01 16:18:51,791 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5cbd159f: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,816 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,855 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@57a48985: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,867 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,894 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@252f626c: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,905 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@58496dc: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,918 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,936 WARN  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'javaConfigAnnotationTest.TestEnableApolloConfigResolveExpressionWithDefaultValueConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'someKey-2020-11-14-1750' in value "${someKey-2020-11-14-1750}"
+[apollo-client][main]2021-11-01 16:18:51,944 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@dc7b462: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:51,957 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:51,996 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6b667cb3: startup date [Mon Nov 01 16:18:51 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,012 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:52,037 WARN  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bean' defined in com.ctrip.framework.apollo.spring.JavaConfigAnnotationTest$AppConfig4: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Invalid parameter type: class java.lang.String for method: private void com.ctrip.framework.apollo.spring.JavaConfigAnnotationTest$TestApolloConfigChangeListenerBean2.onChange(java.lang.String), should be ConfigChangeEvent
+[apollo-client][main]2021-11-01 16:18:52,048 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d61c6dc: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,067 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+org.mockito.exceptions.verification.TooLittleActualInvocations: 
+config.addChangeListener(<any>);
+Wanted 3 times:
+-> at com.ctrip.framework.apollo.spring.JavaConfigAnnotationTest.testApolloConfigChangeListenerResolveExpressionSimple(JavaConfigAnnotationTest.java:471)
+But was 2 times:
+-> at com.ctrip.framework.apollo.spring.annotation.ApolloAnnotationProcessor.processApolloConfigChangeListener(ApolloAnnotationProcessor.java:141)
+
+	at com.ctrip.framework.apollo.spring.JavaConfigAnnotationTest.testApolloConfigChangeListenerResolveExpressionSimple(JavaConfigAnnotationTest.java:471)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[apollo-client][main]2021-11-01 16:18:52,121 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4cb0a000: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,133 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:52,203 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@51351f28: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,216 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:52,245 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d070ef5: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,255 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:52,285 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@de77232: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,297 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:52,332 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@281ce6bb: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,347 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:52,371 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4038cd3a: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,379 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:52,397 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@35178483: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,406 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:52,424 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7f92b990: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,433 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:52,447 WARN  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bean' defined in com.ctrip.framework.apollo.spring.JavaConfigAnnotationTest$AppConfig2: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Invalid type: class java.lang.String for field: private java.lang.String com.ctrip.framework.apollo.spring.JavaConfigAnnotationTest$TestApolloConfigBean2.config, should be Config
+[apollo-client][main]2021-11-01 16:18:52,452 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigFile] Init Apollo Config File failed - namespace: someName, reason: someError.
+[apollo-client][main]2021-11-01 16:18:52,453 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigFile] Init Apollo Config File failed - namespace: someName, reason: someError.
+[apollo-client][main]2021-11-01 16:18:52,460 WARN  [com.ctrip.framework.apollo.internals.SimpleConfig] Init Apollo Simple Config failed - namespace: someName, reason: 
+[apollo-client][main]2021-11-01 16:18:52,461 WARN  [com.ctrip.framework.apollo.internals.SimpleConfig] Could not load config from Apollo, always return default value!
+[apollo-client][main]2021-11-01 16:18:52,475 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigFile] Init Apollo Config File failed - namespace: someName, reason: someError.
+[apollo-client][main]2021-11-01 16:18:52,477 WARN  [com.ctrip.framework.apollo.internals.YamlConfigFile] yaml to properties failed, reason: Parse yaml file content failed for namespace: someName [Cause: some exception]
+[apollo-client][main]2021-11-01 16:18:52,480 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigFile] Init Apollo Config File failed - namespace: someName, reason: someError.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v1.5.16.RELEASE)
+
+[apollo-client][main]2021-11-01 16:18:52,542 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@713064e8: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,659 WARN  [org.springframework.context.annotation.ConfigurationClassPostProcessor] Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[apollo-client][main]2021-11-01 16:18:52,681 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:52,758 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@713064e8: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,766 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4fc142ec: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,769 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigAnnotationTest5.xml]
+[apollo-client][main]2021-11-01 16:18:52,885 WARN  [org.springframework.context.support.ClassPathXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.ctrip.framework.apollo.spring.XMLConfigAnnotationTest.TestApolloConfigChangeListenerBean3#0' defined in class path resource [spring/XmlConfigAnnotationTest5.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Invalid number of parameters: 2 for method: private void com.ctrip.framework.apollo.spring.XMLConfigAnnotationTest$TestApolloConfigChangeListenerBean3.onChange(com.ctrip.framework.apollo.model.ConfigChangeEvent,java.lang.String), should be 1
+[apollo-client][main]2021-11-01 16:18:52,896 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6cd164a6: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,896 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigAnnotationTest6.xml]
+[apollo-client][main]2021-11-01 16:18:52,942 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d62f4c6: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,943 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigAnnotationTest3.xml]
+[apollo-client][main]2021-11-01 16:18:52,984 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@71b6d77f: startup date [Mon Nov 01 16:18:52 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:52,985 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigAnnotationTest1.xml]
+[apollo-client][main]2021-11-01 16:18:53,003 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7dd611c8: startup date [Mon Nov 01 16:18:53 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:53,003 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigAnnotationTest4.xml]
+[apollo-client][main]2021-11-01 16:18:53,019 WARN  [org.springframework.context.support.ClassPathXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.ctrip.framework.apollo.spring.XMLConfigAnnotationTest.TestApolloConfigChangeListenerBean2#0' defined in class path resource [spring/XmlConfigAnnotationTest4.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Invalid parameter type: class java.lang.String for method: private void com.ctrip.framework.apollo.spring.XMLConfigAnnotationTest$TestApolloConfigChangeListenerBean2.onChange(java.lang.String), should be ConfigChangeEvent
+[apollo-client][main]2021-11-01 16:18:53,023 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@636bbbbb: startup date [Mon Nov 01 16:18:53 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:53,023 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigAnnotationTest2.xml]
+[apollo-client][main]2021-11-01 16:18:53,058 WARN  [org.springframework.context.support.ClassPathXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.ctrip.framework.apollo.spring.XMLConfigAnnotationTest.TestApolloConfigBean2#0' defined in class path resource [spring/XmlConfigAnnotationTest2.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Invalid type: class java.lang.String for field: private java.lang.String com.ctrip.framework.apollo.spring.XMLConfigAnnotationTest$TestApolloConfigBean2.config, should be Config
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v1.5.16.RELEASE)
+
+[apollo-client][main]2021-11-01 16:18:53,125 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@10643593: startup date [Mon Nov 01 16:18:53 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:53,138 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:53,171 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@10643593: startup date [Mon Nov 01 16:18:53 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:53,181 WARN  [com.ctrip.framework.apollo.internals.LocalFileConfigRepository] Unable to create local config cache directory /home/ch61/apollo/src/test/resources/config-cache, reason: src/test/resources/config-cache. Will not able to cache config file.
+[apollo-client][main]2021-11-01 16:18:53,182 WARN  [com.ctrip.framework.apollo.internals.LocalFileConfigRepository] Persist local cache file /home/ch61/apollo/src/test/resources/config-cache/someApp+someCluster+someName.properties failed, reason: src/test/resources/config-cache/someApp+someCluster+someName.properties (No such file or directory).
+[apollo-client][main]2021-11-01 16:18:53,186 WARN  [com.ctrip.framework.apollo.internals.LocalFileConfigRepository] Unable to create local config cache directory /home/ch61/apollo/src/test/resources/config-cache, reason: src/test/resources/config-cache. Will not able to cache config file.
+[apollo-client][main]2021-11-01 16:18:53,192 WARN  [com.ctrip.framework.apollo.internals.LocalFileConfigRepository] Unable to create local config cache directory /home/ch61/apollo/src/test/resources/config-cache, reason: src/test/resources/config-cache. Will not able to cache config file.
+[apollo-client][main]2021-11-01 16:18:53,193 WARN  [com.ctrip.framework.apollo.internals.LocalFileConfigRepository] Unable to create local config cache directory /home/ch61/apollo/src/test/resources/config-cache, reason: src/test/resources/config-cache. Will not able to cache config file.
+java.io.FileNotFoundException: src/test/resources/config-cache/someApp+someCluster+someName.properties (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149)
+	at com.google.common.io.CharSink.write(CharSink.java:94)
+	at com.google.common.io.Files.write(Files.java:286)
+	at com.ctrip.framework.apollo.internals.LocalFileConfigRepositoryTest.testLoadConfigWithLocalFileAndFallbackRepo(LocalFileConfigRepositoryTest.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+java.io.FileNotFoundException: src/test/resources/config-cache/someApp+someCluster+someName.properties (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at com.ctrip.framework.apollo.internals.LocalFileConfigRepositoryTest.createLocalCachePropertyFile(LocalFileConfigRepositoryTest.java:228)
+	at com.ctrip.framework.apollo.internals.LocalFileConfigRepositoryTest.testLoadConfigWithLocalFile(LocalFileConfigRepositoryTest.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[apollo-client][main]2021-11-01 16:18:53,451 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4a734c04: startup date [Mon Nov 01 16:18:53 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:53,452 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest10.xml]
+[apollo-client][main]2021-11-01 16:18:53,600 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@dc4a691: startup date [Mon Nov 01 16:18:53 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:53,600 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest7.xml]
+[apollo-client][Apollo-Config-1]2021-11-01 16:18:53,615 ERROR [com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener] Auto update apollo changed value failed, key: batch, beanName: com.ctrip.framework.apollo.spring.XmlConfigPlaceholderTest.TestXmlBean#0, method: com.ctrip.framework.apollo.spring.XmlConfigPlaceholderTest$TestXmlBean.setBatch
+java.lang.IllegalArgumentException: Could not resolve placeholder 'batch' in value "${batch}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:172) ~[spring-context-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:837) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at com.ctrip.framework.apollo.spring.property.PlaceholderHelper.resolvePropertyValue(PlaceholderHelper.java:49) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.resolvePropertyValue(AutoUpdateConfigChangeListener.java:98) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.updateSpringValue(AutoUpdateConfigChangeListener.java:81) [classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.onChange(AutoUpdateConfigChangeListener.java:74) [classes/:?]
+	at com.ctrip.framework.apollo.internals.AbstractConfig$2.run(AbstractConfig.java:501) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+[apollo-client][main]2021-11-01 16:18:53,919 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4e1a46fb: startup date [Mon Nov 01 16:18:53 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:53,919 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest1.xml]
+[apollo-client][main]2021-11-01 16:18:54,038 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2f4c2cd4: startup date [Mon Nov 01 16:18:54 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:54,038 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest1.xml]
+[apollo-client][main]2021-11-01 16:18:54,162 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@53cf9c99: startup date [Mon Nov 01 16:18:54 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:54,162 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest1.xml]
+[apollo-client][main]2021-11-01 16:18:54,278 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1352434e: startup date [Mon Nov 01 16:18:54 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:54,279 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest8.xml]
+[apollo-client][main]2021-11-01 16:18:54,395 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2a4f5433: startup date [Mon Nov 01 16:18:54 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:54,396 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest3.xml]
+[apollo-client][main]2021-11-01 16:18:54,613 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@57272109: startup date [Mon Nov 01 16:18:54 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:54,614 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest3.xml]
+[apollo-client][main]2021-11-01 16:18:54,742 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2a869a16: startup date [Mon Nov 01 16:18:54 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:54,742 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest9.xml]
+[apollo-client][main]2021-11-01 16:18:54,787 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:54,912 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3050ac2f: startup date [Mon Nov 01 16:18:54 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:54,913 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest1.xml]
+[apollo-client][main]2021-11-01 16:18:55,039 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@435cc7f9: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,040 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest1.xml]
+[apollo-client][Apollo-Config-1]2021-11-01 16:18:55,071 ERROR [com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener] Auto update apollo changed value failed, key: batch, beanName: com.ctrip.framework.apollo.spring.XmlConfigPlaceholderTest.TestXmlBean#0, method: com.ctrip.framework.apollo.spring.XmlConfigPlaceholderTest$TestXmlBean.setBatch
+org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "newBatch"
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:77) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:47) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.resolvePropertyValue(AutoUpdateConfigChangeListener.java:112) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.updateSpringValue(AutoUpdateConfigChangeListener.java:81) [classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.onChange(AutoUpdateConfigChangeListener.java:74) [classes/:?]
+	at com.ctrip.framework.apollo.internals.AbstractConfig$2.run(AbstractConfig.java:501) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: java.lang.NumberFormatException: For input string: "newBatch"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_292]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_292]
+	at java.lang.Integer.valueOf(Integer.java:766) ~[?:1.8.0_292]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:208) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:113) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:470) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:443) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:200) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:109) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:64) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	... 10 more
+[apollo-client][main]2021-11-01 16:18:55,375 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@71c17a57: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,376 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest1.xml]
+[apollo-client][main]2021-11-01 16:18:55,503 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@73d60e76: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,503 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest3.xml]
+[apollo-client][main]2021-11-01 16:18:55,640 ERROR [com.ctrip.framework.apollo.util.ConfigUtil] Config for apollo.configCacheSize is invalid: a
+[apollo-client][main]2021-11-01 16:18:55,641 ERROR [com.ctrip.framework.apollo.util.ConfigUtil] Config for apollo.longPollingInitialDelayInMills is invalid: a
+[apollo-client][main]2021-11-01 16:18:55,642 ERROR [com.ctrip.framework.apollo.util.ConfigUtil] Config for apollo.longPollQPS is invalid: a
+[apollo-client][main]2021-11-01 16:18:55,643 ERROR [com.ctrip.framework.apollo.util.ConfigUtil] Config for apollo.readTimeout is invalid: a
+[apollo-client][main]2021-11-01 16:18:55,645 ERROR [com.ctrip.framework.apollo.util.ConfigUtil] Config for apollo.connectTimeout is invalid: a
+[apollo-client][main]2021-11-01 16:18:55,648 ERROR [com.ctrip.framework.apollo.util.ConfigUtil] Config for apollo.refreshInterval is invalid: a
+[apollo-client][main]2021-11-01 16:18:55,649 ERROR [com.ctrip.framework.apollo.util.ConfigUtil] Config for apollo.loadConfigQPS is invalid: a
+[apollo-client][main]2021-11-01 16:18:55,663 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigFile] Init Apollo Config File failed - namespace: someName, reason: someError.
+[apollo-client][main]2021-11-01 16:18:55,666 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigFile] Init Apollo Config File failed - namespace: someName, reason: someError.
+[apollo-client][main]2021-11-01 16:18:55,681 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigFile] Init Apollo Config File failed - namespace: someName, reason: someError.
+[apollo-client][main]2021-11-01 16:18:55,685 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigFile] Init Apollo Config File failed - namespace: someName, reason: someError.
+[apollo-client][main]2021-11-01 16:18:55,690 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@77f68df: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,690 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest1.xml]
+[apollo-client][main]2021-11-01 16:18:55,705 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4fa822ad: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,705 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest3.xml]
+[apollo-client][main]2021-11-01 16:18:55,718 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@24534cb0: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,718 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest6.xml]
+[apollo-client][main]2021-11-01 16:18:55,731 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1abebef3: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,732 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/config.namespace.placeholder.xml]
+[apollo-client][main]2021-11-01 16:18:55,745 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6d0b0da6: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,745 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest5.xml]
+[apollo-client][main]2021-11-01 16:18:55,754 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@120d3fd: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,754 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/config.namespace.placeholder.xml]
+[apollo-client][main]2021-11-01 16:18:55,762 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@536d97f8: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,762 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest4.xml]
+[apollo-client][main]2021-11-01 16:18:55,776 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@330c1f61: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,776 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest3.xml]
+[apollo-client][main]2021-11-01 16:18:55,790 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@70d63e05: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,790 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest2.xml]
+[apollo-client][main]2021-11-01 16:18:55,803 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@56b859a6: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,803 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/config.namespace.placeholder.with.default.value.xml]
+[apollo-client][main]2021-11-01 16:18:55,816 INFO  [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5762658b: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,816 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest1.xml]
+[apollo-client][main]2021-11-01 16:18:55,840 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigRepository] Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: someAppId, cluster: someCluster, namespace: someName, url: http://someServer/configs/someAppId/someCluster/someName?ip=172.22.150.101 [Cause: [status code: 404] Could not find config for namespace - appId: someAppId, cluster: someCluster, namespace: someName, please check whether the configs are released in Apollo!]
+[apollo-client][main]2021-11-01 16:18:55,845 WARN  [com.ctrip.framework.apollo.internals.RemoteConfigRepository] Load config failed, will retry in 10 MILLISECONDS. appId: someAppId, cluster: someCluster, namespaces: someName
+[apollo-client][main]2021-11-01 16:18:55,856 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigRepository] Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: someAppId, cluster: someCluster, namespace: someName, url: http://someServer/configs/someAppId/someCluster/someName?ip=172.22.150.101 [Cause: [status code: 0] Http request failed due to status code: 0]
+[apollo-client][main]2021-11-01 16:18:55,866 WARN  [com.ctrip.framework.apollo.internals.RemoteConfigRepository] Load config failed, will retry in 10 MILLISECONDS. appId: someAppId, cluster: someCluster, namespaces: someName
+[apollo-client][main]2021-11-01 16:18:55,877 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigRepository] Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: someAppId, cluster: someCluster, namespace: someName, url: http://someServer/configs/someAppId/someCluster/someName?ip=172.22.150.101 [Cause: [status code: 500] Http request failed due to status code: 500]
+[apollo-client][main]2021-11-01 16:18:55,878 WARN  [com.ctrip.framework.apollo.internals.RemoteConfigRepository] Load config failed, will retry in 10 MILLISECONDS. appId: someAppId, cluster: someCluster, namespaces: someName
+[apollo-client][main]2021-11-01 16:18:55,974 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6a756082: startup date [Mon Nov 01 16:18:55 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:55,989 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,013 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59bbb974: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,027 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,071 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@340d6d89: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,086 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,120 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5afbd567: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,132 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,146 ERROR [com.ctrip.framework.apollo.spring.annotation.ApolloAnnotationProcessor] Parsing json 'someInvalidJson' to type java.util.List<com.ctrip.framework.apollo.spring.JavaConfigPlaceholderTest$JsonBean> failed!
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:899) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[gson-2.8.0.jar:?]
+	at com.ctrip.framework.apollo.spring.annotation.ApolloAnnotationProcessor.parseJsonValue(ApolloAnnotationProcessor.java:217) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.annotation.ApolloAnnotationProcessor.processApolloJsonValue(ApolloAnnotationProcessor.java:166) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.annotation.ApolloAnnotationProcessor.processField(ApolloAnnotationProcessor.java:79) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.annotation.ApolloProcessor.postProcessBeforeInitialization(ApolloProcessor.java:39) ~[classes/:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:407) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1623) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:84) ~[spring-context-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at com.ctrip.framework.apollo.spring.JavaConfigPlaceholderTest.testApolloJsonValueWithInvalidJson(JavaConfigPlaceholderTest.java:397) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:128) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:27) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115) ~[junit-4.12.jar:4.12]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259) ~[testrunner-running-1.2.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327) ~[testrunner-running-1.2.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49) ~[testrunner-running-1.2.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30) ~[testrunner-running-1.2.jar:?]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12) [scala-library-2.12.6.jar:?]
+	at scala.util.Try$.apply(Try.scala:209) [scala-library-2.12.6.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28) [testrunner-running-1.2.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18) [testrunner-running-1.2.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala) [testrunner-running-1.2.jar:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:350) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:80) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[gson-2.8.0.jar:?]
+	... 58 more
+[apollo-client][main]2021-11-01 16:18:56,147 WARN  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testJavaConfigBean' defined in com.ctrip.framework.apollo.spring.JavaConfigPlaceholderTest$AppConfig8: Initialization of bean failed; nested exception is com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was STRING at line 1 column 1 path $
+[apollo-client][main]2021-11-01 16:18:56,151 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@17aa8a11: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,162 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,186 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2489e84a: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,198 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,229 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@dd2856e: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,238 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,270 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f5effb0: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,282 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,305 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7377781e: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,319 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,345 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7650ded6: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,420 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,453 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@57ad1178: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,462 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,483 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7c663eaf: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,492 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,510 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ef60295: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,527 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,544 WARN  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testJavaConfigBean' defined in com.ctrip.framework.apollo.spring.JavaConfigPlaceholderTest$AppConfig8: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jsonProperty' in value "${jsonProperty}"
+[apollo-client][main]2021-11-01 16:18:56,550 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1668919e: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,560 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,578 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5e99b9c: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,588 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,609 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@798256c5: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,620 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,639 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@54e12f4c: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,647 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,664 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2be21396: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,672 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,697 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1665fa54: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,705 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,726 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@45ab3bdd: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,736 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v1.5.16.RELEASE)
+
+[apollo-client][main]2021-11-01 16:18:56,817 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@759de304: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:56,900 WARN  [org.springframework.context.annotation.ConfigurationClassPostProcessor] Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[apollo-client][main]2021-11-01 16:18:56,914 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:56,973 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@759de304: startup date [Mon Nov 01 16:18:56 CDT 2021]; root of context hierarchy
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v1.5.16.RELEASE)
+
+[apollo-client][main]2021-11-01 16:18:57,024 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@557b6a37: startup date [Mon Nov 01 16:18:57 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:57,091 WARN  [org.springframework.context.annotation.ConfigurationClassPostProcessor] Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[apollo-client][main]2021-11-01 16:18:57,104 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:57,151 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@557b6a37: startup date [Mon Nov 01 16:18:57 CDT 2021]; root of context hierarchy
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v1.5.16.RELEASE)
+
+[apollo-client][main]2021-11-01 16:18:57,194 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4a9860: startup date [Mon Nov 01 16:18:57 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:57,249 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:57,286 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@4a9860: startup date [Mon Nov 01 16:18:57 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:57,288 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigRepository] Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepository, reason: PropertiesCompatibleConfigFile.asProperties should never return null
+[apollo-client][main]2021-11-01 16:18:57,289 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigRepository] Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepository, reason: some exception
+[apollo-client][main]2021-11-01 16:18:57,299 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d4d8579: startup date [Mon Nov 01 16:18:57 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:57,309 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:57,435 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@11d86b9d: startup date [Mon Nov 01 16:18:57 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:57,445 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:57,568 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@483f286e: startup date [Mon Nov 01 16:18:57 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:57,569 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest11.xml]
+[apollo-client][main]2021-11-01 16:18:57,594 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:57,717 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@62b475e2: startup date [Mon Nov 01 16:18:57 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:57,726 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:57,846 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4262fdeb: startup date [Mon Nov 01 16:18:57 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:57,854 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][Apollo-Config-1]2021-11-01 16:18:57,869 ERROR [com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener] Auto update apollo changed value failed, key: batch, beanName: testJavaConfigBean, method: com.ctrip.framework.apollo.spring.JavaConfigPlaceholderAutoUpdateTest$TestJavaConfigBean5.setBatch
+java.lang.IllegalArgumentException: Could not resolve placeholder 'batch' in value "${batch}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:172) ~[spring-context-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:837) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at com.ctrip.framework.apollo.spring.property.PlaceholderHelper.resolvePropertyValue(PlaceholderHelper.java:49) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.resolvePropertyValue(AutoUpdateConfigChangeListener.java:98) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.updateSpringValue(AutoUpdateConfigChangeListener.java:81) [classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.onChange(AutoUpdateConfigChangeListener.java:74) [classes/:?]
+	at com.ctrip.framework.apollo.internals.AbstractConfig$2.run(AbstractConfig.java:501) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+[apollo-client][main]2021-11-01 16:18:58,174 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@456f7d9e: startup date [Mon Nov 01 16:18:58 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:58,183 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:58,304 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@23c767e6: startup date [Mon Nov 01 16:18:58 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:58,313 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:58,435 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@721d5b74: startup date [Mon Nov 01 16:18:58 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:58,444 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:58,567 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59498d94: startup date [Mon Nov 01 16:18:58 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:58,602 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:58,724 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7634f2b: startup date [Mon Nov 01 16:18:58 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:58,727 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/XmlConfigPlaceholderTest1.xml]
+[apollo-client][main]2021-11-01 16:18:58,744 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:58,868 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4c531172: startup date [Mon Nov 01 16:18:58 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:58,878 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][Apollo-Config-1]2021-11-01 16:18:58,895 ERROR [com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener] Parsing json 'someInvalidValue' to type class com.ctrip.framework.apollo.spring.JavaConfigPlaceholderTest$JsonBean failed!
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:224) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[gson-2.8.0.jar:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.parseJsonValue(AutoUpdateConfigChangeListener.java:122) [classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.resolvePropertyValue(AutoUpdateConfigChangeListener.java:101) [classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.updateSpringValue(AutoUpdateConfigChangeListener.java:81) [classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.onChange(AutoUpdateConfigChangeListener.java:74) [classes/:?]
+	at com.ctrip.framework.apollo.internals.AbstractConfig$2.run(AbstractConfig.java:501) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:385) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:213) ~[gson-2.8.0.jar:?]
+	... 13 more
+[apollo-client][Apollo-Config-1]2021-11-01 16:18:58,896 ERROR [com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener] Auto update apollo changed value failed, key: jsonProperty, beanName: testApolloJsonValue, field: com.ctrip.framework.apollo.spring.JavaConfigPlaceholderAutoUpdateTest$TestApolloJsonValue.jsonBean
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:224) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:852) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:801) ~[gson-2.8.0.jar:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.parseJsonValue(AutoUpdateConfigChangeListener.java:122) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.resolvePropertyValue(AutoUpdateConfigChangeListener.java:101) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.updateSpringValue(AutoUpdateConfigChangeListener.java:81) [classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.onChange(AutoUpdateConfigChangeListener.java:74) [classes/:?]
+	at com.ctrip.framework.apollo.internals.AbstractConfig$2.run(AbstractConfig.java:501) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:385) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:213) ~[gson-2.8.0.jar:?]
+	... 13 more
+[apollo-client][main]2021-11-01 16:18:59,199 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6c17c0f8: startup date [Mon Nov 01 16:18:59 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:59,207 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:59,335 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@a54acec: startup date [Mon Nov 01 16:18:59 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:59,346 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:59,488 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@69c532af: startup date [Mon Nov 01 16:18:59 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:59,498 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:59,626 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4b97b3d2: startup date [Mon Nov 01 16:18:59 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:59,634 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:59,753 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@69aabcb0: startup date [Mon Nov 01 16:18:59 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:59,760 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:18:59,880 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@467045c4: startup date [Mon Nov 01 16:18:59 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:18:59,888 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][Apollo-Config-1]2021-11-01 16:18:59,903 ERROR [com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener] Auto update apollo changed value failed, key: batch, beanName: testJavaConfigBean, method: com.ctrip.framework.apollo.spring.JavaConfigPlaceholderAutoUpdateTest$TestJavaConfigBean.setBatch
+org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "newBatch"
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:77) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:47) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.resolvePropertyValue(AutoUpdateConfigChangeListener.java:112) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.updateSpringValue(AutoUpdateConfigChangeListener.java:81) [classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.onChange(AutoUpdateConfigChangeListener.java:74) [classes/:?]
+	at com.ctrip.framework.apollo.internals.AbstractConfig$2.run(AbstractConfig.java:501) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: java.lang.NumberFormatException: For input string: "newBatch"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_292]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_292]
+	at java.lang.Integer.valueOf(Integer.java:766) ~[?:1.8.0_292]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:208) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:113) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:470) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:443) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:200) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:109) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:64) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	... 10 more
+[apollo-client][main]2021-11-01 16:19:00,209 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@166c2c17: startup date [Mon Nov 01 16:19:00 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:00,228 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:19:00,353 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6371cf2f: startup date [Mon Nov 01 16:19:00 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:00,361 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][Apollo-Config-1]2021-11-01 16:19:00,376 ERROR [com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener] Auto update apollo changed value failed, key: jsonProperty, beanName: testApolloJsonValue, field: com.ctrip.framework.apollo.spring.JavaConfigPlaceholderAutoUpdateTest$TestApolloJsonValue.jsonBean
+java.lang.IllegalArgumentException: Could not resolve placeholder 'jsonProperty' in value "${jsonProperty}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:172) ~[spring-context-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:837) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at com.ctrip.framework.apollo.spring.property.PlaceholderHelper.resolvePropertyValue(PlaceholderHelper.java:49) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.resolvePropertyValue(AutoUpdateConfigChangeListener.java:98) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.updateSpringValue(AutoUpdateConfigChangeListener.java:81) [classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.onChange(AutoUpdateConfigChangeListener.java:74) [classes/:?]
+	at com.ctrip.framework.apollo.internals.AbstractConfig$2.run(AbstractConfig.java:501) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+[apollo-client][main]2021-11-01 16:19:00,680 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38fb50f8: startup date [Mon Nov 01 16:19:00 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:00,689 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:19:00,808 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@20d19f2c: startup date [Mon Nov 01 16:19:00 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:00,816 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:19:00,935 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7302ff13: startup date [Mon Nov 01 16:19:00 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:00,943 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][Apollo-Config-1]2021-11-01 16:19:00,958 ERROR [com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener] Auto update apollo changed value failed, key: batch, beanName: testJavaConfigBean, method: com.ctrip.framework.apollo.spring.JavaConfigPlaceholderAutoUpdateTest$TestJavaConfigBean.setBatch
+org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "newBatch"
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:77) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:47) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.resolvePropertyValue(AutoUpdateConfigChangeListener.java:112) ~[classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.updateSpringValue(AutoUpdateConfigChangeListener.java:81) [classes/:?]
+	at com.ctrip.framework.apollo.spring.property.AutoUpdateConfigChangeListener.onChange(AutoUpdateConfigChangeListener.java:74) [classes/:?]
+	at com.ctrip.framework.apollo.internals.AbstractConfig$2.run(AbstractConfig.java:501) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: java.lang.NumberFormatException: For input string: "newBatch"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_292]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_292]
+	at java.lang.Integer.valueOf(Integer.java:766) ~[?:1.8.0_292]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:208) ~[spring-core-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:113) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:470) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:443) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:200) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:109) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:64) ~[spring-beans-4.3.19.RELEASE.jar:4.3.19.RELEASE]
+	... 10 more
+[apollo-client][main]2021-11-01 16:19:01,269 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1310fcb0: startup date [Mon Nov 01 16:19:01 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:01,277 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:19:01,397 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f78d415: startup date [Mon Nov 01 16:19:01 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:01,405 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:19:01,423 ERROR [com.ctrip.framework.apollo.spring.annotation.SpringValueProcessor] Ignore @Value setter com.ctrip.framework.apollo.spring.JavaConfigPlaceholderAutoUpdateTest$TestJavaConfigBean4.setValues, expecting 1 parameter, actual 2 parameters
+[apollo-client][main]2021-11-01 16:19:01,552 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@44f0ff2b: startup date [Mon Nov 01 16:19:01 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:01,560 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:19:01,679 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@79957f11: startup date [Mon Nov 01 16:19:01 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:01,687 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:19:01,907 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@cbd40c1: startup date [Mon Nov 01 16:19:01 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:01,916 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:19:02,035 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c4d2c44: startup date [Mon Nov 01 16:19:02 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:02,046 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:19:02,169 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@243bf087: startup date [Mon Nov 01 16:19:02 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:02,177 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v1.5.16.RELEASE)
+
+[apollo-client][main]2021-11-01 16:19:02,331 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f8a02cf: startup date [Mon Nov 01 16:19:02 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:02,379 WARN  [org.springframework.context.annotation.ConfigurationClassPostProcessor] Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[apollo-client][main]2021-11-01 16:19:02,390 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[apollo-client][main]2021-11-01 16:19:02,431 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5f8a02cf: startup date [Mon Nov 01 16:19:02 CDT 2021]; root of context hierarchy
+[apollo-client][main]2021-11-01 16:19:02,451 WARN  [com.ctrip.framework.apollo.spi.DefaultConfigFactory] ==== Apollo is in local mode! Won't pull configs from remote server for namespace someName ! ====
+[apollo-client][main]2021-11-01 16:19:02,453 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigRepository] Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.LocalFileConfigRepository, reason: Load config from local config failed! [Cause: Cannot read from local cache file /home/ch61/apollo/apollo-client/target/classes/config-cache/someId+default+someName.properties]
+[apollo-client][main]2021-11-01 16:19:02,601 WARN  [com.ctrip.framework.apollo.internals.DefaultConfig] Init Apollo Local Config failed - namespace: someName, reason: .
+[apollo-client][main]2021-11-01 16:19:02,602 WARN  [com.ctrip.framework.apollo.internals.DefaultConfig] Could not load config for namespace someName from Apollo, please check whether the configs are released in Apollo! Return default value now!
+[apollo-client][main]2021-11-01 16:19:02,756 WARN  [com.ctrip.framework.apollo.core.utils.ResourceUtils] No available properties: apollo-env.properties
+[apollo-client][main]2021-11-01 16:19:02,792 INFO  [org.eclipse.jetty.util.log] Logging initialized @14335ms to org.eclipse.jetty.util.log.Slf4jLog
+[apollo-client][main]2021-11-01 16:19:02,800 WARN  [org.eclipse.jetty.server.handler.ContextHandler] o.e.j.s.h.ContextHandler@37d28938{/,null,UNAVAILABLE} contextPath ends with /*
+[apollo-client][main]2021-11-01 16:19:02,853 INFO  [org.eclipse.jetty.server.Server] jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10
+[apollo-client][main]2021-11-01 16:19:02,879 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@37d28938{/configs,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:02,880 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@7b6141f0{/notifications/v2,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:02,880 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@4fb64a52{/services/config,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:02,890 INFO  [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@2aea717c{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:02,891 INFO  [org.eclipse.jetty.server.Server] Started @14435ms
+[apollo-client][Apollo-RemoteConfigLongPollService-1]2021-11-01 16:19:03,557 WARN  [com.ctrip.framework.apollo.internals.RemoteConfigLongPollService] Long polling failed, will retry in 1 seconds. appId: 1003171, cluster: someClusterName, namespaces: someOtherNamespace+application, long polling url: http://localhost:40717/notifications/v2?cluster=someClusterName&dataCenter=someDC&appId=1003171&ip=172.22.150.101&notifications=%5B%7B%22namespaceName%22%3A%22someOtherNamespace%22%2C%22notificationId%22%3A-1%7D%2C%7B%22namespaceName%22%3A%22application%22%2C%22notificationId%22%3A1%7D%5D, reason: Could not complete get operation [Cause: Connection refused (Connection refused)]
+[apollo-client][main]2021-11-01 16:19:03,558 INFO  [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@2aea717c{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,559 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@4fb64a52{/services/config,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,559 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@7b6141f0{/notifications/v2,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,559 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@37d28938{/configs,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,574 WARN  [org.eclipse.jetty.server.handler.ContextHandler] o.e.j.s.h.ContextHandler@45c80312{/,null,UNAVAILABLE} contextPath ends with /*
+[apollo-client][main]2021-11-01 16:19:03,574 INFO  [org.eclipse.jetty.server.Server] jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10
+[apollo-client][main]2021-11-01 16:19:03,576 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@45c80312{/configs,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,576 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@7ceb6c45{/services/config,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,577 INFO  [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@629075f4{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,577 INFO  [org.eclipse.jetty.server.Server] Started @15121ms
+[apollo-client][main]2021-11-01 16:19:03,579 INFO  [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@629075f4{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,579 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@7ceb6c45{/services/config,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,579 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@45c80312{/configs,null,UNAVAILABLE}
+java.util.NoSuchElementException
+	at java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:721)
+	at java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:742)
+	at com.ctrip.framework.apollo.integration.ConfigIntegrationTest.testOrderGetConfigWithLocalFileAndWithRemoteConfig(ConfigIntegrationTest.java:206)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[apollo-client][main]2021-11-01 16:19:03,581 WARN  [org.eclipse.jetty.server.handler.ContextHandler] o.e.j.s.h.ContextHandler@61d60e38{/,null,UNAVAILABLE} contextPath ends with /*
+[apollo-client][main]2021-11-01 16:19:03,581 INFO  [org.eclipse.jetty.server.Server] jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10
+[apollo-client][main]2021-11-01 16:19:03,585 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@61d60e38{/configs,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,585 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@39133244{/services/config,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,587 INFO  [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@ceb7701{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,587 INFO  [org.eclipse.jetty.server.Server] Started @15131ms
+[apollo-client][main]2021-11-01 16:19:03,591 INFO  [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@ceb7701{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,591 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@39133244{/services/config,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,591 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@61d60e38{/configs,null,UNAVAILABLE}
+org.junit.ComparisonFailure: expected:<[some]Value> but was:<[another]Value>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.ctrip.framework.apollo.integration.ConfigIntegrationTest.testGetConfigWithNoLocalFileAndRemoteConfigServiceRetry(ConfigIntegrationTest.java:297)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[apollo-client][main]2021-11-01 16:19:03,593 WARN  [org.eclipse.jetty.server.handler.ContextHandler] o.e.j.s.h.ContextHandler@54f6b629{/,null,UNAVAILABLE} contextPath ends with /*
+[apollo-client][main]2021-11-01 16:19:03,594 INFO  [org.eclipse.jetty.server.Server] jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10
+[apollo-client][main]2021-11-01 16:19:03,603 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@336f49a1{/services/config,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,603 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@54f6b629{/configs,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,603 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@2c8b8de0{/services/config,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,604 INFO  [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@4fb57fb3{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,604 INFO  [org.eclipse.jetty.server.Server] Started @15148ms
+[apollo-client][main]2021-11-01 16:19:03,608 INFO  [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@4fb57fb3{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,608 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@2c8b8de0{/services/config,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,608 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@54f6b629{/configs,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,608 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@336f49a1{/services/config,null,UNAVAILABLE}
+org.junit.ComparisonFailure: expected:<[some]Value> but was:<[another]Value>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.ctrip.framework.apollo.integration.ConfigIntegrationTest.testGetConfigWithNoLocalFileAndRemoteMetaServiceRetry(ConfigIntegrationTest.java:282)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[apollo-client][main]2021-11-01 16:19:03,611 WARN  [org.eclipse.jetty.server.handler.ContextHandler] o.e.j.s.h.ContextHandler@3f048c86{/,null,UNAVAILABLE} contextPath ends with /*
+[apollo-client][main]2021-11-01 16:19:03,611 INFO  [org.eclipse.jetty.server.Server] jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10
+[apollo-client][main]2021-11-01 16:19:03,620 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@3f048c86{/configs,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,620 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@712e787e{/services/config,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,621 INFO  [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@53ea380b{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,621 INFO  [org.eclipse.jetty.server.Server] Started @15165ms
+[apollo-client][main]2021-11-01 16:19:03,623 INFO  [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@53ea380b{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,623 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@712e787e{/services/config,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,623 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@3f048c86{/configs,null,UNAVAILABLE}
+org.junit.ComparisonFailure: expected:<[some]Value> but was:<[another]Value>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.ctrip.framework.apollo.integration.ConfigIntegrationTest.testGetConfigWithNoLocalFileButWithRemoteConfig(ConfigIntegrationTest.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[apollo-client][main]2021-11-01 16:19:03,625 WARN  [org.eclipse.jetty.server.handler.ContextHandler] o.e.j.s.h.ContextHandler@6b42e36d{/,null,UNAVAILABLE} contextPath ends with /*
+[apollo-client][main]2021-11-01 16:19:03,626 INFO  [org.eclipse.jetty.server.Server] jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10
+[apollo-client][main]2021-11-01 16:19:03,632 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@6b42e36d{/configs,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,632 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@34c62fdf{/notifications/v2,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,632 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@3de79067{/services/config,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,634 INFO  [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@1eb85a47{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,634 INFO  [org.eclipse.jetty.server.Server] Started @15178ms
+[apollo-client][main]2021-11-01 16:19:03,635 INFO  [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@1eb85a47{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,636 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@3de79067{/services/config,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,636 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@34c62fdf{/notifications/v2,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,636 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@6b42e36d{/configs,null,UNAVAILABLE}
+org.junit.ComparisonFailure: expected:<[some]Value> but was:<[another]Value>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.ctrip.framework.apollo.integration.ConfigIntegrationTest.testLongPollRefreshWithMultipleNamespacesAndMultipleNamespaceNotified(ConfigIntegrationTest.java:459)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[apollo-client][main]2021-11-01 16:19:03,637 WARN  [org.eclipse.jetty.server.handler.ContextHandler] o.e.j.s.h.ContextHandler@4863c8ac{/,null,UNAVAILABLE} contextPath ends with /*
+[apollo-client][main]2021-11-01 16:19:03,638 INFO  [org.eclipse.jetty.server.Server] jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10
+[apollo-client][main]2021-11-01 16:19:03,644 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@4863c8ac{/configs,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,644 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@1ecf0ac6{/services/config,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,645 INFO  [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@458031da{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,645 INFO  [org.eclipse.jetty.server.Server] Started @15190ms
+[apollo-client][main]2021-11-01 16:19:03,647 INFO  [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@458031da{HTTP/1.1,[http/1.1]}{0.0.0.0:40717}
+[apollo-client][main]2021-11-01 16:19:03,648 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@1ecf0ac6{/services/config,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:19:03,648 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@4863c8ac{/configs,null,UNAVAILABLE}
+org.junit.ComparisonFailure: expected:<someKey[1]> but was:<someKey[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.ctrip.framework.apollo.integration.ConfigIntegrationTest.testOrderGetConfigWithNoLocalFileButWithRemoteConfig(ConfigIntegrationTest.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:259)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:327)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:49)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)

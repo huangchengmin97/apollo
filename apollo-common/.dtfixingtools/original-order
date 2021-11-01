@@ -1,0 +1,4 @@
+com.ctrip.framework.apollo.common.utils.InputValidatorTest.testValidClusterName
+com.ctrip.framework.apollo.common.utils.InputValidatorTest.testValidAppNamespaceName
+com.ctrip.framework.apollo.common.conditional.ConditionalOnProfileTest.test
+com.ctrip.framework.apollo.common.exception.NotFoundExceptionTest.testConstructor

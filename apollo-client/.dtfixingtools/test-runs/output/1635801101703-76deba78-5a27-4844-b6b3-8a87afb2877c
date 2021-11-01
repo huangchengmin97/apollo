@@ -1,0 +1,30 @@
+[apollo-client][main]2021-11-01 16:11:42,953 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigFile] Init Apollo Config File failed - namespace: someName, reason: someError.
+[apollo-client][main]2021-11-01 16:11:42,959 WARN  [com.ctrip.framework.apollo.internals.YamlConfigFile] yaml to properties failed, reason: Parse yaml file content failed for namespace: someName [Cause: some exception]
+[apollo-client][main]2021-11-01 16:11:43,014 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigFile] Init Apollo Config File failed - namespace: someName, reason: someError.
+[apollo-client][main]2021-11-01 16:11:43,046 WARN  [com.ctrip.framework.foundation.internals.provider.DefaultApplicationProvider] app.id is not available from System Property and /META-INF/app.properties. It is set to null
+[apollo-client][main]2021-11-01 16:11:43,046 WARN  [com.ctrip.framework.foundation.internals.provider.DefaultApplicationProvider] app.label is not available from System Property and /META-INF/app.properties. It is set to null
+[apollo-client][main]2021-11-01 16:11:43,047 INFO  [com.ctrip.framework.foundation.internals.provider.DefaultServerProvider] Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+[apollo-client][main]2021-11-01 16:11:43,048 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigRepository] Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepository, reason: PropertiesCompatibleConfigFile.asProperties should never return null
+[apollo-client][main]2021-11-01 16:11:43,049 WARN  [com.ctrip.framework.apollo.internals.AbstractConfigRepository] Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.PropertiesCompatibleFileConfigRepository, reason: some exception
+[apollo-client][main]2021-11-01 16:11:43,120 WARN  [com.ctrip.framework.apollo.core.utils.ResourceUtils] No available properties: apollo-env.properties
+[apollo-client][main]2021-11-01 16:11:43,167 INFO  [org.eclipse.jetty.util.log] Logging initialized @1458ms to org.eclipse.jetty.util.log.Slf4jLog
+[apollo-client][main]2021-11-01 16:11:43,190 WARN  [org.eclipse.jetty.server.handler.ContextHandler] o.e.j.s.h.ContextHandler@75459c75{/,null,UNAVAILABLE} contextPath ends with /*
+[apollo-client][main]2021-11-01 16:11:43,231 INFO  [org.eclipse.jetty.server.Server] jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10
+[apollo-client][main]2021-11-01 16:11:43,256 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@75459c75{/configs,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:11:43,256 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@4de41af9{/notifications/v2,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:11:43,257 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@56ace400{/services/config,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:11:43,267 INFO  [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@397139ab{HTTP/1.1,[http/1.1]}{0.0.0.0:39225}
+[apollo-client][main]2021-11-01 16:11:43,268 INFO  [org.eclipse.jetty.server.Server] Started @1560ms
+[apollo-client][main]2021-11-01 16:11:43,947 INFO  [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@397139ab{HTTP/1.1,[http/1.1]}{0.0.0.0:39225}
+[apollo-client][main]2021-11-01 16:11:43,947 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@56ace400{/services/config,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:11:43,948 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@4de41af9{/notifications/v2,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:11:43,948 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@75459c75{/configs,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:11:43,950 WARN  [org.eclipse.jetty.server.handler.ContextHandler] o.e.j.s.h.ContextHandler@6d0b5baf{/,null,UNAVAILABLE} contextPath ends with /*
+[apollo-client][main]2021-11-01 16:11:43,950 INFO  [org.eclipse.jetty.server.Server] jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_292-8u292-b10-0ubuntu1~18.04-b10
+[apollo-client][main]2021-11-01 16:11:43,954 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@6d0b5baf{/configs,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:11:43,954 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.s.h.ContextHandler@acb0951{/services/config,null,AVAILABLE}
+[apollo-client][main]2021-11-01 16:11:43,954 INFO  [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@5bf22f18{HTTP/1.1,[http/1.1]}{0.0.0.0:39225}
+[apollo-client][main]2021-11-01 16:11:43,955 INFO  [org.eclipse.jetty.server.Server] Started @2247ms
+[apollo-client][main]2021-11-01 16:11:43,964 INFO  [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@5bf22f18{HTTP/1.1,[http/1.1]}{0.0.0.0:39225}
+[apollo-client][main]2021-11-01 16:11:43,964 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@acb0951{/services/config,null,UNAVAILABLE}
+[apollo-client][main]2021-11-01 16:11:43,965 INFO  [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.s.h.ContextHandler@6d0b5baf{/configs,null,UNAVAILABLE}

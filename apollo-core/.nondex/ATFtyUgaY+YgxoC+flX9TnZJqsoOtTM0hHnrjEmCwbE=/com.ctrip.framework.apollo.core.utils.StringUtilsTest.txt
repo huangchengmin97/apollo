@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ctrip.framework.apollo.core.utils.StringUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.312 sec - in com.ctrip.framework.apollo.core.utils.StringUtilsTest

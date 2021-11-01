@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/apollo/apollo-core/.nondex
+nondexJarDir=/home/ch61/apollo/apollo-core/.nondex
+nondexExecid=ATFtyUgaY+YgxoC+flX9TnZJqsoOtTM0hHnrjEmCwbE=
+nondexLogging=CONFIG
+test=
